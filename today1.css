@@ -1,0 +1,155 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    box-sizing: border-box;
+}
+
+.box2{
+    background-color: #F2F2F2;
+    margin-left: 13px;
+    border: 34px solid #F2F2F2;
+    width: 513px;
+}
+
+.photo{
+    background-color: white;
+}
+
+.box1{
+    
+    height: 200%;
+    width: 600px;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li,a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    border-bottom: 2px solid;
+    border-color: #00800075;
+}
+
+.headLogo{
+    cursor: pointer;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    padding-right: 15px;
+}
+
+
+
+
+.foot_left a{
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+.flexbox{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    padding:0 10%;
+    background-color: black;
+}
+
+.foot_left a{
+ padding: 12px;
+}
+
+.copyright{
+    margin-left: 166px;
+    padding-top: 20px;
+}
+
+
+input[type=text] {
+    width: 74%;
+    padding: 12px 20px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    border: 2px solid #00800075;
+}
+
+input[type=number] {
+    padding: 12px 20px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    border: 2px solid #00800075;
+}
+
+select {
+    width: 22.5%;
+    padding: 12px 20px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    border: 2px solid #00800075;
+}
+
+.profile{
+    background: url(Vector.png);
+background-position: center;
+background-repeat: no-repeat;
+height: 36px;
+width: 36px;
+cursor: pointer;
+border: none;
+}
+
+.cont{
+    display: inline-block;
+    padding: 3px;
+    margin-right: 147px;
+}
+.login, .link{
+    font-size: 16px;
+    font-family: 'Times New Roman';
+    color: green;
+}
+
+.ship_button{
+    padding: 12px 38px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    background-color: #56B280;
+    color: whitesmoke;
+    margin-left: 196px;
+    
+}
+
+.pic
+{
+    display: inline-block;
+}
